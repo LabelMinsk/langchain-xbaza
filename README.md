@@ -1,5 +1,8 @@
 # langchain-xbaza
 
+[![PyPI version](https://badge.fury.io/py/langchain-xbaza.svg)](https://pypi.org/project/langchain-xbaza/)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 LangChain integration for [Xbaza Belarus Job Market API](https://xbaza.by/api/ai) - a comprehensive data source for the Belarusian job market, companies, business opportunities, and commercial real estate.
 
 ## Installation
@@ -7,6 +10,8 @@ LangChain integration for [Xbaza Belarus Job Market API](https://xbaza.by/api/ai
 ```bash
 pip install langchain-xbaza
 ```
+
+**📦 PyPI:** https://pypi.org/project/langchain-xbaza/
 
 ## Quick Start
 
@@ -147,6 +152,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Links
 
+- **PyPI**: https://pypi.org/project/langchain-xbaza/
 - **Repository**: https://github.com/LabelMinsk/langchain-xbaza
 - **API**: https://xbaza.by/api/ai
 - **Documentation**: https://github.com/LabelMinsk/xbaza-ai-api

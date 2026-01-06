@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "LangChain integration for Xbaza Belarus Job Market API"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "Xbaza Team", email = "ai@xbaza.by"}
 ]
@@ -16,7 +16,6 @@ keywords = ["langchain", "xbaza", "belarus", "job-market", "api", "ai"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
@@ -42,7 +41,7 @@ dev = [
 [project.urls]
 Homepage = "https://github.com/LabelMinsk/langchain-xbaza"
 Documentation = "https://github.com/LabelMinsk/langchain-xbaza#readme"
-Repository = "https://github.com/youruseLabelMinskrname/langchain-xbaza"
+Repository = "https://github.com/LabelMinsk/langchain-xbaza"
 Issues = "https://github.com/LabelMinsk/langchain-xbaza/issues"
 
 [tool.setuptools.packages.find]
