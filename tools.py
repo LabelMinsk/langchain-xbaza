@@ -38,8 +38,8 @@ class XbazaBaseTool(BaseTool):
 class XbazaJobsTool(XbazaBaseTool):
     """Tool for searching jobs in Belarus via Xbaza API."""
     
-    name = "xbaza_jobs"
-    description = (
+    name: str = "xbaza_jobs"
+    description: str = (
         "Search for job listings in Belarus. "
         "Input should be a JSON string with optional 'category', 'city', and 'limit' fields. "
         "Example: '{\"category\": \"IT\", \"city\": \"Minsk\", \"limit\": 10}'"
@@ -87,8 +87,8 @@ class XbazaJobsTool(XbazaBaseTool):
 class XbazaUsersTool(XbazaBaseTool):
     """Tool for searching professionals in Belarus."""
     
-    name = "xbaza_users"
-    description = (
+    name: str = "xbaza_users"
+    description: str = (
         "Search for professionals and specialists in Belarus. "
         "Input should be a search query (name, skills, etc.). "
         "Example: 'React developer' or 'Ivan Petrov'"
@@ -125,8 +125,8 @@ class XbazaUsersTool(XbazaBaseTool):
 class XbazaBusinessTool(XbazaBaseTool):
     """Tool for searching business listings in Belarus."""
     
-    name = "xbaza_business"
-    description = (
+    name: str = "xbaza_business"
+    description: str = (
         "Search for business for sale listings in Belarus. "
         "Input should be a JSON string with optional 'city', 'minPrice', 'maxPrice', 'limit'. "
         "Example: '{\"city\": \"Minsk\", \"minPrice\": 10000, \"maxPrice\": 100000}'"
@@ -174,8 +174,8 @@ class XbazaBusinessTool(XbazaBaseTool):
 class XbazaPropertyTool(XbazaBaseTool):
     """Tool for searching commercial real estate in Belarus."""
     
-    name = "xbaza_property"
-    description = (
+    name: str = "xbaza_property"
+    description: str = (
         "Search for commercial real estate in Belarus. "
         "Input should be a JSON string with optional 'propertyType', 'dealType', 'city', 'limit'. "
         "Example: '{\"propertyType\": \"OFFICE\", \"dealType\": \"RENT\", \"city\": \"Minsk\"}'"
@@ -223,8 +223,8 @@ class XbazaPropertyTool(XbazaBaseTool):
 class XbazaServicesTool(XbazaBaseTool):
     """Tool for searching business services in Belarus."""
     
-    name = "xbaza_services"
-    description = (
+    name: str = "xbaza_services"
+    description: str = (
         "Search for business services in Belarus. "
         "Input should be a JSON string with optional 'category', 'city', 'limit'. "
         "Example: '{\"category\": \"IT\", \"city\": \"Minsk\"}'"
@@ -269,8 +269,8 @@ class XbazaServicesTool(XbazaBaseTool):
 class XbazaAnalyticsTool(XbazaBaseTool):
     """Tool for getting market analytics from Xbaza API."""
     
-    name = "xbaza_analytics"
-    description = (
+    name: str = "xbaza_analytics"
+    description: str = (
         "Get market analytics and trends from Belarus job market. "
         "Input should be a JSON string with optional 'type' and 'days'. "
         "Example: '{\"type\": \"overview\", \"days\": 30}'"
