@@ -127,8 +127,8 @@ tool = XbazaJobsTool(
 ## API Documentation
 
 For full API documentation, see:
-- [Xbaza API Documentation](https://github.com/yourusername/xbaza-ai-api/blob/main/api_documentation.md)
-- [Response Examples](https://github.com/yourusername/xbaza-ai-api/blob/main/RESPONSE_EXAMPLES.md)
+- [Xbaza API Documentation](https://github.com/LabelMinsk/xbaza-ai-api/blob/main/api_documentation.md)
+- [Response Examples](https://github.com/LabelMinsk/xbaza-ai-api/blob/main/RESPONSE_EXAMPLES.md)
 
 ## Requirements
 
@@ -147,7 +147,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Links
 
-- **Repository**: https://github.com/yourusername/langchain-xbaza
+- **Repository**: https://github.com/LabelMinsk/langchain-xbaza
 - **API**: https://xbaza.by/api/ai
-- **Documentation**: https://github.com/yourusername/xbaza-ai-api
+- **Documentation**: https://github.com/LabelMinsk/xbaza-ai-api
 

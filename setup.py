@@ -13,7 +13,7 @@ setup(
     description="LangChain integration for Xbaza Belarus Job Market API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/langchain-xbaza",
+    url="https://github.com/LabelMinsk/langchain-xbaza",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
